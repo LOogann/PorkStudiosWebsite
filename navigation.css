@@ -1,0 +1,71 @@
+/* classes */
+.NavButton{
+    padding: 20px;
+}
+
+/* ids */
+#NavList{
+
+
+    list-style-type:none;
+    width: fit-content;
+    margin: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #NavList button{
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: rgb(8, 8, 8);
+    
+    text-align: center;
+
+    display:inline-block;
+	width:120px;
+	
+	margin-left:2px;
+
+    padding: 20px;
+}
+
+#NavList button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+button:active{
+    background-color: red;
+}
+
+#NavList li:active{
+    background-color: red;
+}
+
+
+
+#NavList li{
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: rgb(8, 8, 8);
+    
+    text-align: center;
+
+    display:inline-block;
+	width:120px;
+	
+	margin-left:2px;
+
+    padding: 20px;
+}
+
+#NavList li:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#NavList li::selection{
+    background-color: #000000;
+    color: #ffffff;
+}

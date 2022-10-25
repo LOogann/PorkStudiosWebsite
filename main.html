@@ -1,16 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metas -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./navigation.css">
+
+        <!-- Fonts -->
+
+            <!-- Normal Text -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+            
+
+    <!-- Others -->
+
     <title>Pork Studios</title>
 
 </head>
-    
 
 <body>
-    <h1>Helloworld</h1>
+
+    <header>
+
+        <div id="TitleDiv">
+            <!-- Make the title image in the center -->
+            <figcaption class="Title">
+                <img src="./Images/PorkStudiosText.png" alt="Pignose Logo" class="Pignose">
+            
+                <!-- <p class="Title" id="TitleP">Welcome to <br>Pork Studios</p> -->
+            </figcaption>
+        </div>
+
+        
+    </header>
+
+    <nav>
+        <ul id="NavList">
+
+            <li onclick='changeText(getElementById("mainPara"),"We are Pork Studios an indie developement company.<br>We were first Established in 2021.<br> Our owner Logan Santamarina has been making apps for almost two years. ")' 
+              class="NavButton">About Us</li>
+              
+            <li onclick='changeText(getElementById("mainPara"), "Some of our projects include dots clay point and clicker and Labrynth")' class="NavButton">Projects</li>
+            <li onclick='changeText(getElementById("mainPara"), "@logan.gmail.com")' class="NavButton">Socials</li>
+            
+            <script>
+                function changeText(e, txt){
+                    e.innerHTML = txt;
+                }
+            </script>
+        </ul>
+    </nav>
+
+
+    <main>
+        
+        <div id="AboutUsDiv">
+            <p id="mainPara">
+                    We are Pork Studios an indie developement company. 
+                We were first Established in 2021. Our owner Logan Santamarina has been making apps for almost two years.
+            </p>
+        </div>
+
+
+        <!-- <div id="ProjectsDiv">
+            <p id="mainPara">
+                Some of our projects include dots clay point and clicker and Labrynth
+            </p>
+        </div>
+
+
+        <div id="SocialsDiv">
+            <p id="mainPara">
+                @logan.gmail.com
+            </p>
+        </div> -->
+    </main>
+
+
+    <footer>
+        <img src="./Images/pignose.png" alt="Pignose Logo" class="PignoseFooter">
+        
+    </footer>
+
 </body>
 
 </html>

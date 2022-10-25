@@ -1,0 +1,66 @@
+/* elements */
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+figcaption{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#TitleDiv{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* classes */
+.Title{
+    font-weight: bolder;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+.Pignose{
+    width: 400px;
+}
+
+
+.PignoseFooter{
+    width: 100px;
+    transform: rotate(90deg);
+    
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#mainPara{
+    background-color: rgb(8, 8, 8);
+
+    color: whitesmoke;
+    padding: 30px;
+
+    text-align: center;
+    display: block;
+    
+}
